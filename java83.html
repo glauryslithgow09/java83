@@ -1,0 +1,45 @@
+<!--<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Documento</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var valor = prompt('Ingrese un valor numérico ', '');
+        var patron = /^[12345]+$/;
+        if (patron.test(valor))
+            document.write('Tiene un numero entre 1-5');
+        else
+            document.write('No tiene numero entre 1-5');
+    </script>
+
+</body>
+
+</html>-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>document</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var nombre = prompt('Ingrese un dia de la semana y un numero de 1 o 2 digitos:', '');
+        var patron = /^[lunes|martes|miercoles|jueves|viernes|sabado|domingo]\d[1,2]+$/;
+        if (patron.test(nombre))
+            document.write('Los datos coinciden ');
+        else
+            document.write('Los datos no coinciden');
+    </script>
+
+
+</body>
+
+</html>
